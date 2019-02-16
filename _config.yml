@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: aweffr's blog
+title: Dream Bigger
 subtitle:
 description:
 keywords:
@@ -83,3 +83,10 @@ deploy:
   repo: https://github.com/aweffr/aweffr.github.io
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+marked:
+  gfm: true
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
