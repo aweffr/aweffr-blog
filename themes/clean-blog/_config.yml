@@ -1,0 +1,41 @@
+# Header
+menu:
+  主页: /
+  归档: /archives
+  标签: /tags
+#  分类 (categories): /categories
+  Github:
+    url: https://github.com/aweffr/aweffr.github.io
+    icon: github
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title: "aweffr's 技术博客"
+
+# URL of the Home page image
+index_cover: https://cn.bing.com/az/hprichbg/rb/Kamakura_ZH-CN4324380274_1920x1080.jpg
+
+# Default post title
+default_post_title: Untitled
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  disqus_shortname: aweffr-github-io
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Addthis ID
+addthis:
+
+# set your own favicon
+favicon: /images/heibei.png
+
+# Social Accounts
+twitter_url:
+twitter_handle:
+facebook_url:
+github_url: https://github.com/aweffr/aweffr.github.io
+gitlab_url:
+linkedin_url:
+mailto: aweffr@foxmail.com
