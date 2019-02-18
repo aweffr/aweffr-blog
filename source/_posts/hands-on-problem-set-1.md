@@ -1,8 +1,10 @@
 ---
 title: Hands-On ML 第一章 Notes & Exercises
 tags:
-- "Hands On Machine Learning"
+  - Hands On Machine Learning
+date: 2019-02-18 14:12:31
 ---
+
 
 ## 摘要
 
@@ -44,18 +46,16 @@ Note:
   
     - 用强化学习.  An agent(智能体), can observe the environment, select and perform actions, and get rewards or penalties in return.
 
-
 7. 要将顾客分成多个组, 你会使用什么类型的算法?
   
     - 当分组不明确时, 可以采用聚类算法生成分组类别. 当分组明确后, 就可以采用监督式学习方法, 对新用户分组到现有类别中.
 
-
 9. 什么是在线学习系统?
 
-    - 批量学习(Batch leaning): 必须在全数据集上训练的的学习系统, 占用计算资源多, 通常情形下只能离线完成, 又名离线学习(offline learning).  
+    - 批量学习(Batch leaning): 必须在全数据集上训练的的学习系统, 占用计算资源多, 通常情形下只能离线完成, 又名离线学习(offline learning). 
     - 在线学习(Online Learning): In online learning, you train the system incrementally by feeding it data instances sequentially, either **individually** or by small groups called **mini-batches**. Each learning step is fast and cheap, so the system can learn about new data on the fly.
 
-  Note: 训练, 评估, 启动学习系统是可以轻易地自动化的, 所以只要计算资源充足, 成本/时间代价可接受, 批量学习也不是不可取的.
+    Note: 训练, 评估, 启动学习系统是可以轻易地自动化的, 所以只要计算资源充足, 成本/时间代价可接受, 批量学习也不是不可取的.
 
 10. 什么是核外学习? (What is out-of-core learning?)
     - Page 23
