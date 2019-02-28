@@ -3,6 +3,7 @@ title: Hands-On ML 第一章 Notes & Exercises
 tags:
   - Hands On Machine Learning
 date: 2019-02-18 14:12:31
+updated: 2019-02-28 15:12:00
 ---
 
 
@@ -16,12 +17,12 @@ date: 2019-02-18 14:12:31
 
 **Warning: 标准答案见附录, 本文仅为整理学习, 和所学知识的再表述, 与标准答案存在一定偏差.**
 
-1.  How would you define Machine Learning?
+1.  How would you define Machine Learning? (你如何定义机器学习?)
     - 机器学习是一种科学(和艺术), 让计算机编程变为**从数据中学习(learn from data)**.
     - 不用**显式地编程**就能学习(出一个 Model, 用于完成目标任务)
     - 形式化的定义: A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.
 
-2. Can you name four types of problems where it shines?
+2. Can you name four types of problems where it shines? (机器学习在哪些问题上表现突出?)
 
 | Task                 | 传统方法                                 | 机器学习                                                                       | 总结                                  |
 | -------------------- | ---------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------- |
@@ -30,8 +31,8 @@ date: 2019-02-18 14:12:31
 | 语音识别             | 没有好用的传统算法                       | 数据进, 模型出, 并且具备更好的**可扩展性**                                     | 可扩展性 + 解决传统方法难以处理的问题 |
 | 数据挖掘             | /                                        | 可以试试多个 Model, 根据模型的解释, 找到初步数据 data explore 时难以发现的模式 | 帮助人们发现未发现的数据特征          |
 
-4. What are the two most common supervised tasks?
-5. Can you name four common unsupervised tasks?
+4. What are the two most common supervised tasks? (请举出二种常见的监督式学习任务)
+5. Can you name four common unsupervised tasks? (请举出四种常见的非监督式学习任务)
 
 | 监督式 | 非监督式                                                                    |
 | ------ | --------------------------------------------------------------------------- |
@@ -42,7 +43,7 @@ date: 2019-02-18 14:12:31
 Note:
 关联规则学习: 目的是挖掘大量数据, 发现属性之间的有趣联系.
 
-6. What type of Machine Learning algorithm would you use to allow a robot to walk in various unknown terrains?
+6. What type of Machine Learning algorithm would you use to allow a robot to walk in various unknown terrains? (如果要让一个机器人在各种未知的地形中行走, 你会使用什么类型的机器学习算法?)
   
     - 用强化学习.  An agent(智能体), can observe the environment, select and perform actions, and get rewards or penalties in return.
 
